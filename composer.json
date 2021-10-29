@@ -1,19 +1,20 @@
 {
-  "name": "terranigma/curso-frameworks-php-platzi",
-  "description": "Proyecto basico",
-  "authors": [
-    {
-      "name": "Hector Vega",
-      "email": "linnk99@gmail.com"
-    }
-  ],
-  "require": {},
-  "autoload": {
-    "psr-4": {
-      "App\\": "app/"
+    "name": "lucia.giglio/curso-frameworks-php-platzi-estructura-de-carpetas",
+    "description": "Proyecto b\u0000sico de intro a frameworks php",
+    "type": "proyect",
+    "autoload": {
+        "psr-4": {
+            "LuciaGiglio\\CursoFrameworksPhpPlatziEstructuraDeCarpetas\\": "src/"
+        }
     },
-    "files": [
-      "app/helpers.php"
-    ]
-  }
+    "require": {},
+    "autoload-dev": {
+      "psr-4": {
+        "App\\": "app/"
+      },
+      "files": [
+        "app/helpers.php"
+
+      ]
+    }
 }
